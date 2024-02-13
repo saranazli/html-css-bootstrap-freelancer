@@ -1,0 +1,139 @@
+/* CUSTO PROPERTIES */
+
+:root{
+  --dark_blue: rgba(44,62,80,255);
+  --light_blue: rgba(26,188,156,255);
+  --blue_grey: rgba(58,84,109,255);
+  --blue_foo: rgba(44,62,80,255);
+  --titles_dark_grey: rgba(51,51,51,255);
+  --bord_dark_grey: rgba(51,51,51,0.5);
+}
+
+/********* UTILITIES *********/
+
+.container_sb{
+  width: 85%;
+  padding: 50px 0;
+}
+
+header{
+  background-color: var(--dark_blue);
+  font-weight: bold;
+}
+
+.header.container_sb{
+  padding: 25px 0;
+}
+
+.debug{
+  border: 1px solid white;
+}
+
+.fa-solid.fa-bars{
+  font-size: 1rem;
+}
+
+.nav_sb{
+  text-decoration: none;
+  color: white;
+}
+
+.center_by_margin{
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.line_star{
+  background-color: white;
+  width: 15%;
+  height: 4px;
+}
+
+.fa-solid.fa-star{
+  font-size: 1.5rem;
+}
+
+.star_dark{
+  color: var(--blue_foo);
+}
+
+.line_star.star_dark{
+  background-color: var(--blue_foo);
+}
+
+/* GENERAL SET */
+
+#jumbotron{
+  background-color: var(--light_blue);
+}
+
+#about{
+  background-color: var(--light_blue);
+}
+
+#top_footer{
+  background-color: var(--blue_grey);
+}
+
+#bottom_footer{
+  background-color: var(--blue_foo);
+}
+
+/*  MAIN  */ 
+
+.avatar{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.portfolio_imgs{
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.plus_hover{
+  height: 100%;
+  width: 100%;
+  font-size: 3.5rem;
+  top: 0;
+  left: 0;
+  background-color: rgba(70,179,156,0.5);
+  display: none;
+}
+
+.portfolio_imgs:hover .plus_hover{
+  display: flex;
+}
+
+input.form-control,
+textarea.form-control{
+  border: none;
+  border-bottom: .1rem solid var(--bord_dark_grey);
+  opacity: 0.9;
+}
+
+::placeholder{
+  color: var(--titles_dark_grey) !important;
+  font-weight: 600;
+}
+
+span.brand_s{
+  border-radius: 50%;
+  border: .1rem solid white;
+  padding: 15px;
+  margin: 0 5px;
+}
+
+.fa-brands{
+  width: 25px;
+  height: 20px;
+}
+
+span.creator{
+  color: var(--light_blue);
+}
