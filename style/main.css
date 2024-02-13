@@ -122,6 +122,11 @@ textarea.form-control{
   font-weight: 600;
 }
 
+.btn_send{
+  background-color: var(--light_blue);
+  border-color: var(--light_blue);
+}
+
 span.brand_s{
   border-radius: 50%;
   border: .1rem solid white;
