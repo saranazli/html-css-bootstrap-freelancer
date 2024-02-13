@@ -125,13 +125,13 @@ textarea.form-control{
 span.brand_s{
   border-radius: 50%;
   border: .1rem solid white;
-  padding: 15px;
+  padding: 13px;
   margin: 0 5px;
 }
 
 .fa-brands{
-  width: 37px;
-  height: 17px;
+  width: 30px;
+  height: 10px;
 }
 
 span.creator{
